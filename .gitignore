@@ -1,0 +1,23 @@
+# Entorno virtual
+.venv/
+
+# PyCharm/IntelliJ
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos temporales
+*.log
+.DS_Store
+
+# Reports de pruebas (si se generan)
+reports/
+allure-results/
+allure-report/
+
+# Selenium/Drivers descargados por webdriver-manager
+.drivers/
