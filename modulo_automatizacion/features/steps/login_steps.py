@@ -3,8 +3,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
-from pages.login_page import LoginPage
-from pages.inventory_page import InventoryPage
+from modulo_automatizacion.pages.login_page import LoginPage
+from modulo_automatizacion.pages.inventory_page import InventoryPage
 
 
 @given("que abro la página de inicio de sesión")
